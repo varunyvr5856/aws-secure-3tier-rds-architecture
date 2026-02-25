@@ -14,9 +14,8 @@ Security groups are used as the primary network security mechanism.
   - Allows PostgreSQL (5432) only from the PostgreSQL Client EC2 security group
 
 ## Why Security Group Referencing?
+- Public IPs change when instances change or at auto scaling unles if elastic IPs are assigned
 - Avoids hard-coded IP addresses inside the VPC
-- Scales cleanly with additional instances
-- Clearly enforces tier-to-tier trust
 
 ## Network ACLs
 - Default NACLs were used
