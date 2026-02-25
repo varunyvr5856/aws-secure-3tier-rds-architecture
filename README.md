@@ -21,7 +21,7 @@ The design ensures:
 
 ## Architecture Diagram
 <img width="1211" height="561" alt="aws-3tier architecture drawio (1)" src="https://github.com/user-attachments/assets/dc43475f-3613-4c38-bf5d-b40f8dd7e262" />
-(architecture/architecturetop → Bastion Host → PostgreSQL Client EC2 → Amazon RDS
+(User Laptop's Public IP → Bastion Host → PostgreSQL Client EC2 → Amazon RDS
 
 ## Key Security Principles
 - Network isolation using private subnets
