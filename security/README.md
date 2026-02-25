@@ -20,5 +20,3 @@ Security groups are used as the primary network security mechanism.
 
 ## Network ACLs
 - Default NACLs were used
-- Security groups already provide sufficient stateful filtering
-- This avoids unnecessary complexity in a demo environment
