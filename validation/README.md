@@ -10,16 +10,13 @@ and connectivity of the architecture.
 
 ## Validation Summary
 
-### Test 1: Direct SSH to Private EC2 from Laptop
-Result: Failed (Expected)
-
-### Test 2: SSH Access to Bastion Host
+### Test 1: SSH Access to Bastion Host
 Result: Successful
 
-### Test 3: SSH from Bastion to Private EC2
+### Test 2: SSH from Bastion to Private EC2
 Result: Successful
 
-### Test 4: PostgreSQL Connection from Private EC2 to RDS
+### Test 3: PostgreSQL Connection from Private EC2 to RDS
 Result: Successful
 
 ## Conclusion
