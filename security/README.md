@@ -19,3 +19,13 @@ Security groups are used as the primary network security mechanism.
 
 ## Network ACLs
 - Default NACLs were used
+## Reasoning
+- Security groups already provide stateful filtering
+- Using NACLs in addition would increase complexity without strong benefit
+- In production, restrictive NACLs may be used for compliance
+
+## Difference from Security Groups
+- NACLs are stateless
+- Security Groups are stateful
+- NACLs apply at subnet level
+
