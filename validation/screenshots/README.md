@@ -17,7 +17,7 @@ For every step below, I’m including:
 
 ## 1) VPC (Network Boundary)
 
-### AWS Console clicks
+### AWS Console
 VPC → Your VPCs → select your VPC
 
 - AWS Console → **VPC**
@@ -67,7 +67,7 @@ VPC → Subnets → select the public subnet
 
 ### 2.2 Private Subnet (AZ B)
 
-#### AWS Console clicks
+#### AWS Console
 VPC → Subnets → select the private subnet
 
 #### Screenshot should show
@@ -133,7 +133,7 @@ to inbound internet traffic.
 
 ### 5.1 NAT Gateway resource
 
-#### AWS Console clicks
+#### AWS Console
 VPC → NAT Gateways → select your NAT Gateway
 
 #### Screenshot should show
@@ -153,7 +153,7 @@ VPC → NAT Gateways → select your NAT Gateway
 
 ### 5.2 Private Route Table routes via NAT
 
-#### AWS Console clicks
+#### AWS Console
 VPC → Route Tables → select the private route table → Routes tab
 
 #### Screenshot should show
@@ -178,7 +178,7 @@ VPC → Route Tables → select the private route table → Routes tab
 
 ### 6.1 Bastion Security Group (SSH only from Laptop)
 
-#### AWS Console clicks
+#### AWS Console
 EC2 → Security Groups → select Bastion SG → Inbound rules
 
 #### Screenshot should show
@@ -216,7 +216,7 @@ EC2 → Security Groups → select PG Client SG → Inbound rules
 
 ### 6.3 RDS Security Group (5432 only from PG Client SG)
 
-#### AWS Console clicks
+#### AWS Console
 EC2 → Security Groups → select RDS SG → Inbound rules
 (or RDS → Databases → select DB → Connectivity & security → VPC security groups)
 
